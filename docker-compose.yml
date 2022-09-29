@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=pass1
+      - POSTGRES_USER=christine
+      - POSTGRES_DB=users
